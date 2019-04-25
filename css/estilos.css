@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu-item {
+    padding: 10px;
+}
+
+.menu-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.menu-item:hover a {
+    color: #07abf3;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    background: url('../imagenes/hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
